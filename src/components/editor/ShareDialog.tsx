@@ -70,6 +70,7 @@ export const ShareDialog = ({
   const isPreviewMode =
     currentOrigin.includes("lovable.app") ||
     currentOrigin.includes("lovableproject.com") ||
+    currentOrigin.includes("vercel.app") ||
     currentOrigin.includes("localhost");
 
   // Use published URL from env if available, otherwise use current origin
