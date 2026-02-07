@@ -1,0 +1,13 @@
+project_id = "tpvscwzizrzrtcqqpntz"
+
+[functions.generate-slides]
+verify_jwt = false
+
+[functions.generate-image]
+verify_jwt = false
+
+[functions.improve-slide]
+verify_jwt = false
+
+[functions.admin-setup]
+verify_jwt = false
